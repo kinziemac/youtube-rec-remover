@@ -1,0 +1,14 @@
+{
+    "short_name": "YT Rec Rem",
+    "name": "YouTube Recommendation Remover",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.youtube.com/*"
+            ],
+            "js": ["content.js"]
+        }
+    ],
+    "version": "1.0"
+  }
